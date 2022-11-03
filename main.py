@@ -35,7 +35,7 @@ def subux_speak(audio_string):
 
 def respond(voice_data):
     if 'what is your name' in voice_data:
-        subux_speak('My name is susys')
+        subux_speak('My name is SUBUI')
     if 'susys' in voice_data: #About SUSYS
         subux_speak('Yes of course. They are web development group ')
     if 'what time is it' in voice_data:
